@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Array : MonoBehaviour
+public class SentenceGenerator : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

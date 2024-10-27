@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class TestGithub : MonoBehaviour
+public class NumberGenerator : MonoBehaviour
 {
     // Start is called before the firstframe update
     void Start()
