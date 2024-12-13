@@ -11,13 +11,13 @@ namespace Assignment27
             int num1 = 5;
             int num2 = 15;
 
-            Debug.Log("The number 1 before Changed: " + num1);
+            Debug.Log("** Before Called By value, number 1 is: " + num1);
             ChangeNumberByValue(num1);
-            Debug.Log("The number 1 when Call by Value: " + num1);
+            Debug.Log("** After Called By value, number 1 is: " + num1);
 
-            Debug.Log("The number 2 before Changed: " + num2);
+            Debug.Log("** Before Called By Referance, number 2 is: " + num2);
             ChangeNumberByReferance(ref num2);
-            Debug.Log("The number 2 when Call by Reference: " + num2);
+            Debug.Log("** After Called By Referance, number 2 is: " + num2);
 
             int num3; //uninitialized variables
             ChangeNumberUsingOut(out num3);
