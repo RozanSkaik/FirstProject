@@ -18,7 +18,7 @@ namespace Assignment35.Part4_5
             Debug.Log($"Descending sorting list: {string.Join(" , ", numbersList)}");
 
             //Filtering list use FindAll
-            List<int> filteredNumbers = numbersList2.FindAll((int num) => num % 2 == 0);
+            List<int> filteredNumbers = numbersList2.FindAll((num) => num % 2 == 0);
 
             Debug.Log($"Filtering list to even number: {string.Join(" , ", filteredNumbers)}");
 
