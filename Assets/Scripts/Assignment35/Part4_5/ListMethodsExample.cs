@@ -13,7 +13,7 @@ namespace Assignment35.Part4_5
         void Start()
         {
             //Sorting list descending
-            numbersList.Sort((int x, int y) => y.CompareTo(x));
+            numbersList.Sort((x,y) => y.CompareTo(x));
 
             Debug.Log($"Descending sorting list: {string.Join(" , ", numbersList)}");
 
